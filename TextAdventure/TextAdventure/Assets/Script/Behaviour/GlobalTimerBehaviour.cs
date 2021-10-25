@@ -39,7 +39,7 @@ public class GlobalTimerBehaviour : MonoBehaviour
 
         if (bar != null)
         {
-            SetBar((float)_value / _valueMax);
+            SetBar(1f - (float)_value / _valueMax);
         }
     }
 

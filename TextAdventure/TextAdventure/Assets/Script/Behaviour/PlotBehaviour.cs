@@ -50,14 +50,14 @@ public class PlotBehaviour : MonoBehaviour
     {
         Debug.Log("ShowAnimIn");
         plotTrans.anchoredPosition = inPos;
-        plotTrans.DOAnchorPos(finalPos, 0.7f).SetEase(Ease.OutCubic).OnComplete(ShowContent);
+        plotTrans.DOAnchorPos(finalPos, 0.6f).SetEase(Ease.OutCubic).OnComplete(ShowContent);
     }
 
     public void ShowAnimOut(Action next)
     {
         Debug.Log("ShowAnimOut");
         plotTrans.anchoredPosition = finalPos;
-        plotTrans.DOAnchorPos(outPos, 0.5f).SetEase(Ease.InBack).OnComplete(() => { next?.Invoke(); });
+        plotTrans.DOAnchorPos(outPos, 0.6f).SetEase(Ease.InBack).OnComplete(() => { next?.Invoke(); });
     }
 
     void ShowContent()
