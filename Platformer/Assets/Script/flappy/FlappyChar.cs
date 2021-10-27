@@ -16,14 +16,15 @@ public class FlappyChar : Ticker
 
     public float energyMax;
     public float energyPerJump;
-    [Range(0,5)]
-    public float minJumpSpeedRequire=1;
+    [Range(0, 5)]
+    public float minJumpSpeedRequire = 1;
     private float _energy;
 
     public Slider energyBar;
     public Text speedText;
     public Text distanceText;
     public Transform spawnPoint;
+    private bool _gravityIsReversed;
 
     private void Start()
     {
@@ -38,6 +39,7 @@ public class FlappyChar : Ticker
         transform.position = spawnPoint.position;
 
         _speedLevel = defaultSpeedLevel;
+        _gravityIsReversed = false;
         SetMoveSpeed();
     }
 
@@ -89,10 +91,21 @@ public class FlappyChar : Ticker
 
     public void TryJump()
     {
-        if (_dropSpeed <= -minJumpSpeedRequire)
+        if (_gravityIsReversed)
         {
-            return;
+            if (_dropSpeed > minJumpSpeedRequire)
+            {
+                return;
+            }
         }
+        else
+        {
+            if (_dropSpeed <= -minJumpSpeedRequire)
+            {
+                return;
+            }
+        }
+
         if (_energy < energyPerJump)
         {
             return;
@@ -110,12 +123,26 @@ public class FlappyChar : Ticker
 
     void Drop()
     {
-        _dropSpeed += gravity * Time.deltaTime;
+        if (_gravityIsReversed)
+        {
+            _dropSpeed -= gravity * Time.deltaTime;
+        }
+        else
+        {
+            _dropSpeed += gravity * Time.deltaTime;
+        }
     }
 
     void Jump()
     {
-        _dropSpeed = -jumpPower;
+        if (_gravityIsReversed)
+        {
+            _dropSpeed = jumpPower;
+        }
+        else
+        {
+            _dropSpeed = -jumpPower;
+        }
     }
 
     protected override void Tick()
@@ -170,6 +197,10 @@ public class FlappyChar : Ticker
             case FlappyCollectible.Category.Push:
                 _dropSpeed -= flappyCollectible.value;
                 break;
+            case FlappyCollectible.Category.GravityReverse:
+                _gravityIsReversed = !_gravityIsReversed;
+                break;
+
         }
     }
 }

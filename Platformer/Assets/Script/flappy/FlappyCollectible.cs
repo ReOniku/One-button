@@ -12,6 +12,7 @@ public class FlappyCollectible : MonoBehaviour
         BreakableWall,//value is Speed reduce amount
         Portal,//target is out place
         Push,//value is push up speed amount 5
+        GravityReverse,
     }
     public Category category;
 
