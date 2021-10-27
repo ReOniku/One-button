@@ -3942,6 +3942,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   plotBehaviour: {fileID: 963803520}
+  bcg: {fileID: 1817569536}
   restartButton: {fileID: 935339733}
   score: 0
 --- !u!1 &1301313128
@@ -4769,8 +4770,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -15}
-  m_SizeDelta: {x: -60, y: -70}
+  m_AnchoredPosition: {x: 0, y: -7.5}
+  m_SizeDelta: {x: -60, y: -55}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1543370855
 MonoBehaviour:
@@ -5640,13 +5641,15 @@ GameObject:
   - component: {fileID: 1817569533}
   - component: {fileID: 1817569535}
   - component: {fileID: 1817569534}
+  - component: {fileID: 1817569537}
+  - component: {fileID: 1817569536}
   m_Layer: 5
   m_Name: redVignette
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1817569533
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5704,6 +5707,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1817569532}
   m_CullTransparentMesh: 1
+--- !u!114 &1817569536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1817569532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 091a91d039653f54098643d85b124432, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TurnTime: 0.4
+  Loop: 0
+  StartAlpha: 0
+  EndAlpha: 1
+  Pingpong: 1
+  StartAwake: 0
+  cg: {fileID: 1817569537}
+--- !u!225 &1817569537
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1817569532}
+  m_Enabled: 1
+  m_Alpha: 0
+  m_Interactable: 0
+  m_BlocksRaycasts: 0
+  m_IgnoreParentGroups: 0
 --- !u!1 &1851038010
 GameObject:
   m_ObjectHideFlags: 0

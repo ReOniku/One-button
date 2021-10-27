@@ -64,9 +64,7 @@ public class PlotBehaviour : MonoBehaviour
     {
         Debug.Log("ShowContent");
         if (_plot == null)
-        {
             return;
-        }
 
         tb.ShowText(_plot.text);
         tb.SetColor(_plot.color);

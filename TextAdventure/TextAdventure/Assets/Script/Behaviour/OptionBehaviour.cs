@@ -38,7 +38,7 @@ public class OptionBehaviour : MonoBehaviour
                 break;
 
             case Option.VFX.RedVignette:
-
+                GameSystem.instance.bcg.Play();
                 break;
 
             case Option.VFX.Fireworks:

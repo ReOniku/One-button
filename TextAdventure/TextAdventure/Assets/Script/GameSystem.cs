@@ -5,6 +5,8 @@ public class GameSystem : MonoBehaviour
 {
     public PlotBehaviour plotBehaviour;
 
+    public BlinkCanvasGroup bcg;
+
     public static GameSystem instance;
     public GameObject restartButton;
     public int score = 0;
