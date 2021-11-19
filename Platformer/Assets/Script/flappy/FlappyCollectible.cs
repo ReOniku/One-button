@@ -37,6 +37,7 @@ public class FlappyCollectible : MonoBehaviour
 
     public void OnCollected()
     {
-        Destroy(gameObject);
+        //Destroy(gameObject);
+        gameObject.SetActive(false);
     }
 }

@@ -16,13 +16,15 @@ public class FlappyChar : Ticker
 
     public float energyMax;
     public float energyPerJump;
-    [Range(0, 5)]
+
     public float minJumpSpeedRequire = 1;
     private float _energy;
 
     public Slider energyBar;
     public Text speedText;
-    public Text distanceText;
+    public Text scoreText;
+    public int score;
+
     public Transform spawnPoint;
     private bool _gravityIsReversed;
 
@@ -35,7 +37,7 @@ public class FlappyChar : Ticker
     {
         _energy = energyMax;
         _dropSpeed = 0;
-
+        score = 0;
         transform.position = spawnPoint.position;
 
         _speedLevel = defaultSpeedLevel;
@@ -74,11 +76,11 @@ public class FlappyChar : Ticker
 
     void UpdateView()
     {
-        energyBar.value = _energy / energyMax;
+        // energyBar.value = _energy / energyMax;
         speedText.text = Mathf.FloorToInt(_moveSpeed) + "";
 
         var distance = transform.position.x - spawnPoint.position.x;
-        distanceText.text = Mathf.FloorToInt(distance) + " M";
+        scoreText.text = "" + (score + Mathf.FloorToInt(distance));
     }
 
     private void ReadInput()
@@ -106,12 +108,12 @@ public class FlappyChar : Ticker
             }
         }
 
-        if (_energy < energyPerJump)
-        {
-            return;
-        }
-
-        _energy = _energy - energyPerJump;
+        //if (_energy < energyPerJump)
+        //{
+        //    return;
+        //}
+        //
+        //_energy = _energy - energyPerJump;
         Jump();
     }
 
@@ -172,11 +174,10 @@ public class FlappyChar : Ticker
                 SetMoveSpeed();
                 break;
             case FlappyCollectible.Category.EnergyBonus:
-                _energy += flappyCollectible.value;
-                if (_energy > energyMax)
-                {
-                    _energy = energyMax;
-                }
+                //_energy += flappyCollectible.value;
+                //if (_energy > energyMax)
+                //    _energy = energyMax;
+                score += flappyCollectible.value;
                 break;
 
             case FlappyCollectible.Category.BreakableWall:
@@ -195,7 +196,7 @@ public class FlappyChar : Ticker
                 transform.position = flappyCollectible.target.position;
                 break;
             case FlappyCollectible.Category.Push:
-                _dropSpeed -= flappyCollectible.value;
+                _dropSpeed = -flappyCollectible.value;
                 break;
             case FlappyCollectible.Category.GravityReverse:
                 _gravityIsReversed = !_gravityIsReversed;

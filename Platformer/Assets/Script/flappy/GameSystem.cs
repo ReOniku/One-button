@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using DG.Tweening;
 
 public class GameSystem : MonoBehaviour
 {
@@ -8,6 +9,10 @@ public class GameSystem : MonoBehaviour
     public FlappyChar flappyChar;
     public CanvasGroup gameStateCg;
     public CanvasGroup hudCg;
+    public CanvasGroup retryCg;
+
+    public CollectibleManager collectibleManager;
+
     public AudioSource music;
 
     private void Awake()
@@ -26,6 +31,33 @@ public class GameSystem : MonoBehaviour
     private void Start()
     {
         EndGame();
+
+        gameStateCg.alpha = 1;
+        gameStateCg.blocksRaycasts = true;
+        gameStateCg.interactable = true;
+    }
+
+    public void OnDie()
+    {
+        state = GameState.None;
+        flappyChar.OnEndGame();
+
+        gameStateCg.alpha = 0;
+        gameStateCg.blocksRaycasts = false;
+        gameStateCg.interactable = false;
+
+        hudCg.alpha = 0;
+        music.Stop();
+
+
+        retryCg.alpha = 0;
+        retryCg.blocksRaycasts = false;
+        retryCg.interactable = false;
+        retryCg.DOFade(1, 1).OnComplete(() =>
+        {
+            retryCg.blocksRaycasts = true;
+            retryCg.interactable = true;
+        });
     }
 
     public void EndGame()
@@ -33,24 +65,37 @@ public class GameSystem : MonoBehaviour
         state = GameState.None;
         flappyChar.OnEndGame();
 
-        gameStateCg.alpha = 1;
-        gameStateCg.blocksRaycasts = true;
-        gameStateCg.interactable = true;
+
+        retryCg.alpha = 0;
+        retryCg.blocksRaycasts = false;
+        retryCg.interactable = false;
+
         hudCg.alpha = 0;
         music.Stop();
     }
 
     public void StartGame()
     {
-        state = GameState.Playing;
+        collectibleManager.ResetCollectibles();
         flappyChar.OnStartGame();
+        FlappyCamera.instance.SyncPos();
 
-        gameStateCg.alpha = 0;
         gameStateCg.blocksRaycasts = false;
         gameStateCg.interactable = false;
-        hudCg.alpha = 1;
+        if (gameStateCg.alpha == 1)
+            gameStateCg.DOFade(0, 1f).OnComplete(OnStartGame);
 
-        FlappyCamera.instance.SyncPos();
+        retryCg.blocksRaycasts = false;
+        retryCg.interactable = false;
+        if (retryCg.alpha == 1)
+            retryCg.DOFade(0, 1f).OnComplete(OnStartGame);
+    }
+
+    void OnStartGame()
+    {
+        hudCg.alpha = 1;
+        state = GameState.Playing;
+      
         music.Play();
     }
 }

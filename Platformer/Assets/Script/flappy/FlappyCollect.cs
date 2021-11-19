@@ -10,6 +10,12 @@ public class FlappyCollect : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        if (other.tag=="killzone")
+        {
+            GameSystem.instance.OnDie();
+            return;
+        }
+
         var flappyCollectible = other.GetComponent<FlappyCollectible>();
         if (flappyCollectible != null)
         {
