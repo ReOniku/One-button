@@ -19,3 +19,4 @@ MonoBehaviour:
   vfx: 0
   timerFeedback: 2
   timerFeedbackValue: -1
+  score: 0
