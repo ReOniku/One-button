@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92cfcc4db8ebb284cbb051ac2655eb2d, type: 3}
   m_Name: opt-19-1
   m_EditorClassIdentifier: 
-  text: Cheers!
-  targetPlot: {fileID: 11400000, guid: 1d92bff574db17340ba5ccf85c444eea, type: 2}
+  text: Start
+  targetPlot: {fileID: 11400000, guid: 9422e2abecaef534fabdc52e73a2d3fb, type: 2}
   itemId: 
   color: 3
   vfx: 0
   timerFeedback: 2
   timerFeedbackValue: -1
+  score: 0

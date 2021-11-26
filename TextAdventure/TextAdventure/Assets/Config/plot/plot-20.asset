@@ -12,14 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18babe0966456ad448a8c30597c38ae6, type: 3}
   m_Name: plot-20
   m_EditorClassIdentifier: 
-  text: 'Thanks for your cooperation!
-
-    Your data will NEVER be uploaded since
-    I have neither a server nor data base'
+  text: The bomb exploded, killing you and everyone in the building
   optionLT: {fileID: 0}
   optionRT: {fileID: 0}
   optionLB: {fileID: 0}
   optionRB: {fileID: 0}
-  soundName: ScoreSound
-  locationName: Ending
-  color: 0
+  soundName: 
+  locationName: Game over
+  color: 2
