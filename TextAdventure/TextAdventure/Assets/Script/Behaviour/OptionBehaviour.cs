@@ -63,6 +63,7 @@ public class OptionBehaviour : MonoBehaviour
 
     public void Setup(Option option)
     {
+        Debug.Log(option);
         _option = option;
         if (option == null)
         {

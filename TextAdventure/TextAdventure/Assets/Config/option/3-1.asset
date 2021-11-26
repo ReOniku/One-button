@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92cfcc4db8ebb284cbb051ac2655eb2d, type: 3}
   m_Name: 3-1
   m_EditorClassIdentifier: 
-  text: Ignore it
+  text: Ignore
   targetPlot: {fileID: 11400000, guid: 578a2df594570fa42ac4948a9a7db023, type: 2}
   itemId: 
   color: 0

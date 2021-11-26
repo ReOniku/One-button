@@ -37,4 +37,9 @@ public class GameSystem : MonoBehaviour
     {
         restartButton.SetActive(show);
     }
+
+    public void ClearItems()
+    {
+        IconsBehaviour.instance.Clear();
+    }
 }

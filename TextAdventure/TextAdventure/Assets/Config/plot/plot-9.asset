@@ -17,6 +17,6 @@ MonoBehaviour:
   optionRT: {fileID: 11400000, guid: e5723733837239e49af0c8058370352d, type: 2}
   optionLB: {fileID: 0}
   optionRB: {fileID: 0}
-  soundName: GachaBoxHit
+  soundName: BtmBig
   locationName: Home
-  color: 2
+  color: 1

@@ -23,6 +23,10 @@ public class PlotBehaviour : MonoBehaviour
     {
         Debug.Log(plot);
         scoreText.text = GameSystem.instance.score + "";
+        if (ConfigService.instance.startPlot== plot)
+        {
+            GameSystem.instance.ClearItems();
+        }
 
         tb.Clear();
         optionLT.Setup(null);
@@ -48,21 +52,21 @@ public class PlotBehaviour : MonoBehaviour
 
     public void ShowAnimIn()
     {
-        Debug.Log("ShowAnimIn");
+        //Debug.Log("ShowAnimIn");
         plotTrans.anchoredPosition = inPos;
         plotTrans.DOAnchorPos(finalPos, 0.6f).SetEase(Ease.OutCubic).OnComplete(ShowContent);
     }
 
     public void ShowAnimOut(Action next)
     {
-        Debug.Log("ShowAnimOut");
+        //Debug.Log("ShowAnimOut");
         plotTrans.anchoredPosition = finalPos;
         plotTrans.DOAnchorPos(outPos, 0.6f).SetEase(Ease.InBack).OnComplete(() => { next?.Invoke(); });
     }
 
     void ShowContent()
     {
-        Debug.Log("ShowContent");
+        //Debug.Log("ShowContent");
         if (_plot == null)
             return;
 
