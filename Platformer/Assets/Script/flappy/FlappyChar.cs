@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+using DG.Tweening;
 
 public class FlappyChar : Ticker
 {
@@ -193,10 +194,12 @@ public class FlappyChar : Ticker
                 }
                 break;
             case FlappyCollectible.Category.Portal:
-                transform.position = flappyCollectible.target.position;
+                transform.DOMove(flappyCollectible.target.position, 0.15f);
+                //transform.position = flappyCollectible.target.position;
                 break;
             case FlappyCollectible.Category.Push:
                 _dropSpeed = -flappyCollectible.value;
+                _gravityIsReversed = false;
                 break;
             case FlappyCollectible.Category.GravityReverse:
                 _gravityIsReversed = !_gravityIsReversed;
