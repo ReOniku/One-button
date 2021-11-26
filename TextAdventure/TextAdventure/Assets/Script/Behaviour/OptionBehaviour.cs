@@ -23,6 +23,17 @@ public class OptionBehaviour : MonoBehaviour
 
         var items = _option.needItems;
         var canClick = true;
+        if (items!=null&& items.Count>0)
+        {
+            foreach (var i in items)
+            {
+                if (!IconsBehaviour.instance.HasItem(i))
+                {
+                    canClick = false;
+                    break;
+                }
+            }
+        }
 
         if (!canClick)
         {

@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 18babe0966456ad448a8c30597c38ae6, type: 3}
-  m_Name: plot-21
+  m_Name: plot-0-2
   m_EditorClassIdentifier: 
-  text: You smashed over the bomb cover
+  text: You need to go to the bank today. But you feel like something will happen...
   optionLT: {fileID: 0}
-  optionRT: {fileID: 0}
+  optionRT: {fileID: 11400000, guid: f1272399cdd332b4abbe5763486edca9, type: 2}
   optionLB: {fileID: 0}
   optionRB: {fileID: 0}
-  soundName: 
-  locationName: Restroom
-  color: 1
+  soundName: tuto
+  locationName: Bed
+  color: 0

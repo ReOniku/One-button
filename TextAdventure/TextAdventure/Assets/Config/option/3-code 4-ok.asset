@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 92cfcc4db8ebb284cbb051ac2655eb2d, type: 3}
-  m_Name: 3-2
+  m_Name: 3-code 4-ok
   m_EditorClassIdentifier: 
-  text: Break cover(need gloves)
-  targetPlot: {fileID: 11400000, guid: 55eb3709d082efa488050257f69a2711, type: 2}
+  text: 4
+  targetPlot: {fileID: 11400000, guid: f156ab888fd374d40afb10ffb9c2f7db, type: 2}
   itemId: 
-  color: 1
-  vfx: 3
-  timerFeedback: 1
-  timerFeedbackValue: 2
+  color: 0
+  vfx: 0
+  timerFeedback: 2
+  timerFeedbackValue: -1
   score: 4
   needItems: []

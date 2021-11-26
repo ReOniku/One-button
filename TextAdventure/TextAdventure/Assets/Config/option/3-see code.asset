@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 92cfcc4db8ebb284cbb051ac2655eb2d, type: 3}
-  m_Name: 2-3
+  m_Name: 3-see code
   m_EditorClassIdentifier: 
-  text: Scissors
-  targetPlot: {fileID: 11400000, guid: 47caccbb5095b054e97b4f69b3549553, type: 2}
-  itemId: Scissor
-  color: 3
+  text: Check inside
+  targetPlot: {fileID: 11400000, guid: 93380ede4a45631488a4c87b3beb1345, type: 2}
+  itemId: 
+  color: 1
   vfx: 0
   timerFeedback: 0
   timerFeedbackValue: -1

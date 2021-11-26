@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92cfcc4db8ebb284cbb051ac2655eb2d, type: 3}
   m_Name: end-suc
   m_EditorClassIdentifier: 
-  text: Win
+  text: Success
   targetPlot: {fileID: 11400000, guid: e9eb2065ec139c941b83cab941f2d164, type: 2}
   itemId: 
   color: 3

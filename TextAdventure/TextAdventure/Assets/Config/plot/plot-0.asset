@@ -15,7 +15,7 @@ MonoBehaviour:
   text: '<size=200%>Emergency Expert</size>
 
 
-    <color=#666040>-text adventure-</color>'
+    <color=#777777>-text adventure-</color>'
   optionLT: {fileID: 0}
   optionRT: {fileID: 0}
   optionLB: {fileID: 11400000, guid: e27f36e68ee96624c9fadc3900e3d6f5, type: 2}

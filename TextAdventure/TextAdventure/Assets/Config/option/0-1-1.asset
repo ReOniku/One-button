@@ -13,10 +13,11 @@ MonoBehaviour:
   m_Name: 0-1-1
   m_EditorClassIdentifier: 
   text: Get up
-  targetPlot: {fileID: 11400000, guid: 9422e2abecaef534fabdc52e73a2d3fb, type: 2}
+  targetPlot: {fileID: 11400000, guid: b72f7b3a52077ca4d8b070f112cb3240, type: 2}
   itemId: 
   color: 0
   vfx: 0
   timerFeedback: 0
   timerFeedbackValue: 0
   score: 0
+  needItems: []

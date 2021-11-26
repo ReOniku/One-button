@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 92cfcc4db8ebb284cbb051ac2655eb2d, type: 3}
-  m_Name: 2-3
+  m_Name: 3-code 6-ok
   m_EditorClassIdentifier: 
-  text: Scissors
-  targetPlot: {fileID: 11400000, guid: 47caccbb5095b054e97b4f69b3549553, type: 2}
-  itemId: Scissor
-  color: 3
+  text: 6
+  targetPlot: {fileID: 11400000, guid: a01f2b3b1ef42804890e9526ddc2a89e, type: 2}
+  itemId: 
+  color: 0
   vfx: 0
-  timerFeedback: 0
+  timerFeedback: 2
   timerFeedbackValue: -1
-  score: 0
+  score: 4
   needItems: []
