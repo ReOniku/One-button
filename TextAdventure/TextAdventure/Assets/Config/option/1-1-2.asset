@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: Keep watching
   targetPlot: {fileID: 11400000, guid: d8f503bc569e304468165262e15791a2, type: 2}
-  itemId: 
+  itemId: tv2
   color: 0
   vfx: 0
   timerFeedback: 0

@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18babe0966456ad448a8c30597c38ae6, type: 3}
   m_Name: plot-0
   m_EditorClassIdentifier: 
-  text: Emergency Expert
+  text: Emergency Expert text adventure game
   optionLT: {fileID: 0}
   optionRT: {fileID: 11400000, guid: e27f36e68ee96624c9fadc3900e3d6f5, type: 2}
   optionLB: {fileID: 0}
   optionRB: {fileID: 0}
   soundName: 
-  locationName: Menu
-  color: 0
+  locationName: Emergency Expert
+  color: 1

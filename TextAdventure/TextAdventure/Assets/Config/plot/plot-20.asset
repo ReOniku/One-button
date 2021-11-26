@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: The bomb exploded, killing you and everyone in the building
   optionLT: {fileID: 0}
-  optionRT: {fileID: 0}
+  optionRT: {fileID: 11400000, guid: f16478e35439c6a41b123d837998e504, type: 2}
   optionLB: {fileID: 0}
   optionRB: {fileID: 0}
-  soundName: 
+  soundName: exp1
   locationName: Game over
   color: 2

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: Take it out
   targetPlot: {fileID: 11400000, guid: 33500c207f6eebf43b875a92547f36fa, type: 2}
-  itemId: 
+  itemId: Egg
   color: 0
   vfx: 0
   timerFeedback: 2

@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: Towel
   targetPlot: {fileID: 11400000, guid: 9dc067e517f06bc46b71f8ebe67e5bdd, type: 2}
-  itemId: 
+  itemId: Towel
   color: 3
   vfx: 0
-  timerFeedback: 2
+  timerFeedback: 0
   timerFeedbackValue: -1
   score: 4

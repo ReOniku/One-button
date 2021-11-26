@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: Accept
   targetPlot: {fileID: 11400000, guid: 9c4e89381b740fc4da47740ffc8f9036, type: 2}
-  itemId: 
+  itemId: Fortune
   color: 0
   vfx: 0
-  timerFeedback: 2
+  timerFeedback: 0
   timerFeedbackValue: -1
   score: 0

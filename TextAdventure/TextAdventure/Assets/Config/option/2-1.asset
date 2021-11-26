@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: Gloves
   targetPlot: {fileID: 11400000, guid: 2b0ba9d8b86765d4e835357e47d53c1f, type: 2}
-  itemId: 
+  itemId: Gloves
   color: 3
   vfx: 0
   timerFeedback: 2

@@ -10,16 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 18babe0966456ad448a8c30597c38ae6, type: 3}
-  m_Name: plot-30
+  m_Name: plot-0-1
   m_EditorClassIdentifier: 
-  text: 'Thanks for your cooperation!
-
-    Your data will NEVER be uploaded since
-    I have neither a server nor data base'
+  text: You woke up in the morning, getting ready for the day.
   optionLT: {fileID: 0}
-  optionRT: {fileID: 0}
+  optionRT: {fileID: 11400000, guid: 27cdc3337e5bc094c95630a3c8882cec, type: 2}
   optionLB: {fileID: 0}
   optionRB: {fileID: 0}
-  soundName: ScoreSound
-  locationName: Ending
+  soundName: tuto
+  locationName: Bed
   color: 0

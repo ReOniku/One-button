@@ -17,6 +17,6 @@ MonoBehaviour:
   optionRT: {fileID: 11400000, guid: 5edaf40feda84744797bb0eec6c19f57, type: 2}
   optionLB: {fileID: 0}
   optionRB: {fileID: 0}
-  soundName: 
+  soundName: ScoreSound
   locationName: Supermarket
   color: 0

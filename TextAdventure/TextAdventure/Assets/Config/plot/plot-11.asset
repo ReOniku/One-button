@@ -17,6 +17,6 @@ MonoBehaviour:
   optionRT: {fileID: 11400000, guid: 61bb59d3b4fd4754aa81df48ec4efe05, type: 2}
   optionLB: {fileID: 0}
   optionRB: {fileID: 0}
-  soundName: 
+  soundName: ScoreSound
   locationName: Fortune teller
   color: 3

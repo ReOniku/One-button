@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18babe0966456ad448a8c30597c38ae6, type: 3}
   m_Name: plot-7
   m_EditorClassIdentifier: 
-  text: The sound of an explosion woke you up. For some reason you feel bad
+  text: The sound of an <color=#FF0000><size=200%>Explosion</size></color> woke you
+    up. For some reason you feel bad
   optionLT: {fileID: 0}
   optionRT: {fileID: 0}
-  optionLB: {fileID: 0}
+  optionLB: {fileID: 11400000, guid: e31040ae43e00e74b81492054df7129c, type: 2}
   optionRB: {fileID: 0}
   soundName: exp1
   locationName: Home

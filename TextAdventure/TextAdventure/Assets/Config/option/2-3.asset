@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: Scissor
   targetPlot: {fileID: 11400000, guid: 47caccbb5095b054e97b4f69b3549553, type: 2}
-  itemId: 
+  itemId: Scissor
   color: 3
   vfx: 0
-  timerFeedback: 2
+  timerFeedback: 0
   timerFeedbackValue: -1
   score: 0

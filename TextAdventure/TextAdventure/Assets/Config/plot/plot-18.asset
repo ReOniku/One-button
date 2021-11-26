@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18babe0966456ad448a8c30597c38ae6, type: 3}
   m_Name: plot-18
   m_EditorClassIdentifier: 
-  text: You found a bomb in one of the restroom stalls, there's only two minutes
-    left so you have to defuse it yourself.
+  text: You found a <color=#FF9900><size=200%>Bomb</size></color> in one of the restroom
+    stalls, there's only <color=#FFFF00>two minutes</color> left so you have to defuse
+    it yourself.
   optionLT: {fileID: 0}
   optionRT: {fileID: 11400000, guid: 792e9fee0b721d8478c82409f1f3723b, type: 2}
   optionLB: {fileID: 0}
