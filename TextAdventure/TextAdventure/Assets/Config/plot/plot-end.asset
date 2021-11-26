@@ -23,6 +23,6 @@ MonoBehaviour:
   optionRT: {fileID: 0}
   optionLB: {fileID: 0}
   optionRB: {fileID: 0}
-  soundName: bigLevelup
-  locationName: My real home
+  soundName: tuto
+  locationName: My real wonderful home
   color: 3

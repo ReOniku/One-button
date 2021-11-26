@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: plot-18
   m_EditorClassIdentifier: 
   text: You found a <color=#FF9900><size=200%>Bomb</size></color> in one of the restroom
-    stalls, there's only <color=#FFFF00>5 minutes</color> left so you have to defuse
+    stalls, there's only <color=#FFFF00>7 minutes</color> left so you have to defuse
     it yourself.
   optionLT: {fileID: 0}
   optionRT: {fileID: 11400000, guid: 792e9fee0b721d8478c82409f1f3723b, type: 2}

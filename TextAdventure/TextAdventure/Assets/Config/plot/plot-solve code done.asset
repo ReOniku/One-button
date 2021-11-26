@@ -17,6 +17,6 @@ MonoBehaviour:
   optionRT: {fileID: 0}
   optionLB: {fileID: 11400000, guid: df3d2c6851c699a42ae9f66f306e281a, type: 2}
   optionRB: {fileID: 0}
-  soundName: OfferBounce
+  soundName: win
   locationName: Restroom
   color: 3

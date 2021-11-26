@@ -19,4 +19,5 @@ MonoBehaviour:
   vfx: 0
   timerFeedback: 0
   timerFeedbackValue: 0
-  score: 1
+  score: 0
+  needItems: []

@@ -10,6 +10,7 @@ public class GameSystem : MonoBehaviour
     public static GameSystem instance;
     public GameObject restartButton;
     public int score = 0;
+    public bool fastMode;
 
     void Start()
     {

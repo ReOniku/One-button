@@ -17,6 +17,7 @@ MonoBehaviour:
   itemId: 
   color: 1
   vfx: 0
-  timerFeedback: 2
-  timerFeedbackValue: -1
-  score: 2
+  timerFeedback: 0
+  timerFeedbackValue: 0
+  score: 0
+  needItems: []

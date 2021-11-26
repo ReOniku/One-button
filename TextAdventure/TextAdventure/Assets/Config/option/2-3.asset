@@ -18,6 +18,6 @@ MonoBehaviour:
   color: 3
   vfx: 0
   timerFeedback: 0
-  timerFeedbackValue: -1
+  timerFeedbackValue: 0
   score: 0
   needItems: []

@@ -44,7 +44,18 @@ public class PlotBehaviour : MonoBehaviour
             _plot = plot;
             ShowAnimIn();
         }
+        if (GameSystem.instance.fastMode)
+        {
+            optionLT.Setup(_plot.optionLT);
+            optionRT.Setup(_plot.optionRT);
+            optionLB.Setup(_plot.optionLB);
+            optionRB.Setup(_plot.optionRB);
 
+            optionLT.ShowAnimIn();
+            optionRT.ShowAnimIn();
+            optionLB.ShowAnimIn();
+            optionRB.ShowAnimIn();
+        }
         SoundService.instance.Play(_plot.soundName == "" ? defaultSoundName : _plot.soundName);
     }
 
@@ -76,7 +87,10 @@ public class PlotBehaviour : MonoBehaviour
         tb.SetColor(_plot.color);
       
         locationText.text = _plot.locationName;
-
+        if (GameSystem.instance.fastMode)
+        {
+            return;
+        }
         tb.OnFinished = () =>
         {
             optionLT.Setup(_plot.optionLT);

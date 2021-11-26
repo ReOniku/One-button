@@ -68,6 +68,10 @@ public class OptionBehaviour : MonoBehaviour
 
         switch (_option.timerFeedback)
         {
+            case Option.TimerFeedback.None:
+
+                break;
+
             case Option.TimerFeedback.Push:
                 GlobalTimerBehaviour.instance.Add(_option.timerFeedbackValue);
                 break;

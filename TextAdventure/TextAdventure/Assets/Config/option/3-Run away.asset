@@ -13,10 +13,11 @@ MonoBehaviour:
   m_Name: 3-Run away
   m_EditorClassIdentifier: 
   text: Run away
-  targetPlot: {fileID: 11400000, guid: 55eb3709d082efa488050257f69a2711, type: 2}
+  targetPlot: {fileID: 11400000, guid: 80f207085a037ed43b61c485a73de0bb, type: 2}
   itemId: 
   color: 0
   vfx: 1
-  timerFeedback: 1
-  timerFeedbackValue: 2
+  timerFeedback: 2
+  timerFeedbackValue: -1
   score: 4
+  needItems: []

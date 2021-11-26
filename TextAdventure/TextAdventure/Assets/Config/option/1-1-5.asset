@@ -20,3 +20,4 @@ MonoBehaviour:
   timerFeedback: 0
   timerFeedbackValue: 0
   score: 0
+  needItems: []

@@ -17,6 +17,6 @@ MonoBehaviour:
   optionRT: {fileID: 11400000, guid: 27cdc3337e5bc094c95630a3c8882cec, type: 2}
   optionLB: {fileID: 0}
   optionRB: {fileID: 0}
-  soundName: tuto
+  soundName: 
   locationName: Bed
   color: 0

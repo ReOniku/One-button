@@ -17,6 +17,7 @@ MonoBehaviour:
   itemId: Egg
   color: 0
   vfx: 0
-  timerFeedback: 2
-  timerFeedbackValue: -1
-  score: 4
+  timerFeedback: 0
+  timerFeedbackValue: 0
+  score: 0
+  needItems: []
