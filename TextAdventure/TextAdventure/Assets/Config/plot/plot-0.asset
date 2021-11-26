@@ -12,13 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18babe0966456ad448a8c30597c38ae6, type: 3}
   m_Name: plot-0
   m_EditorClassIdentifier: 
-  text: 'Emergency Expert
+  text: '<size=200%>Emergency Expert</size>
 
-    -text adventure-'
+
+    <color=#666040>-text adventure-</color>'
   optionLT: {fileID: 0}
   optionRT: {fileID: 0}
   optionLB: {fileID: 11400000, guid: e27f36e68ee96624c9fadc3900e3d6f5, type: 2}
   optionRB: {fileID: 0}
   soundName: 
-  locationName: Emergency Expert
+  locationName: 
   color: 1

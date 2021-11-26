@@ -44,6 +44,8 @@ public class PlotBehaviour : MonoBehaviour
             _plot = plot;
             ShowAnimIn();
         }
+
+        SoundService.instance.Play(_plot.soundName == "" ? defaultSoundName : _plot.soundName);
     }
 
     public Vector2 inPos;
@@ -72,7 +74,7 @@ public class PlotBehaviour : MonoBehaviour
 
         tb.ShowText(_plot.text);
         tb.SetColor(_plot.color);
-        SoundService.instance.Play(_plot.soundName == "" ? defaultSoundName : _plot.soundName);
+      
         locationText.text = _plot.locationName;
 
         tb.OnFinished = () =>

@@ -21,6 +21,15 @@ public class OptionBehaviour : MonoBehaviour
         if (_option == null)
             return;
 
+        var items = _option.needItems;
+        var canClick = true;
+
+        if (!canClick)
+        {
+            SoundService.instance.Play("forbidden");
+            return;
+        }
+
         if (_option.itemId != "")
         {
             IconsBehaviour.instance.AddItem(_option.itemId);

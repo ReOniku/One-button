@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 18babe0966456ad448a8c30597c38ae6, type: 3}
-  m_Name: plot-16
+  m_Name: plot-run away
   m_EditorClassIdentifier: 
-  text: You got yourself a pair of scissors. Can this cut anything?
+  text: You are not so good at running, but you ran at 10m/s like a rabbit
   optionLT: {fileID: 0}
-  optionRT: {fileID: 11400000, guid: 5edaf40feda84744797bb0eec6c19f57, type: 2}
+  optionRT: {fileID: 11400000, guid: e31040ae43e00e74b81492054df7129c, type: 2}
   optionLB: {fileID: 0}
   optionRB: {fileID: 0}
-  soundName: ScoreSound
-  locationName: Supermarket
-  color: 0
+  soundName: 
+  locationName: Restroom
+  color: 1

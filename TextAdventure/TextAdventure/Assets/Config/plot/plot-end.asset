@@ -10,13 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 18babe0966456ad448a8c30597c38ae6, type: 3}
-  m_Name: plot-16
+  m_Name: plot-end
   m_EditorClassIdentifier: 
-  text: You got yourself a pair of scissors. Can this cut anything?
+  text: 'Thanks for playing my first Unity project.
+
+
+    Wish you have clear the
+    bomb ;)'
   optionLT: {fileID: 0}
-  optionRT: {fileID: 11400000, guid: 5edaf40feda84744797bb0eec6c19f57, type: 2}
+  optionRT: {fileID: 0}
   optionLB: {fileID: 0}
   optionRB: {fileID: 0}
-  soundName: ScoreSound
-  locationName: Supermarket
-  color: 0
+  soundName: bigLevelup
+  locationName: My real home
+  color: 3

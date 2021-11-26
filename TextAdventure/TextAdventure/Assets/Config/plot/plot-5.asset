@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18babe0966456ad448a8c30597c38ae6, type: 3}
   m_Name: plot-5
   m_EditorClassIdentifier: 
-  text: You laid back on your couch and kept watching
+  text: You laid back on your couch and kept watching. <size=200%>8</size> is a good
+    number? Let me think...
   optionLT: {fileID: 0}
   optionRT: {fileID: 11400000, guid: accb8b15717ab2d4ea28a1c34e17d602, type: 2}
   optionLB: {fileID: 11400000, guid: 74f68983ed1b8ec4fb38cf8948d121e4, type: 2}

@@ -13,10 +13,11 @@ MonoBehaviour:
   m_Name: end-death
   m_EditorClassIdentifier: 
   text: Die
-  targetPlot: {fileID: 11400000, guid: 716d868dc1607404eb9e9ad812c010b6, type: 2}
+  targetPlot: {fileID: 11400000, guid: e9eb2065ec139c941b83cab941f2d164, type: 2}
   itemId: 
   color: 2
-  vfx: 1
+  vfx: 4
   timerFeedback: 0
   timerFeedbackValue: 0
   score: 0
+  needItems: []

@@ -15,7 +15,7 @@ MonoBehaviour:
   text: Fortune teller
   targetPlot: {fileID: 11400000, guid: 5356239de95e6c449be9d8d23b6a7b15, type: 2}
   itemId: 
-  color: 3
+  color: 0
   vfx: 0
   timerFeedback: 2
   timerFeedbackValue: -1

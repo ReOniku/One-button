@@ -17,7 +17,7 @@ MonoBehaviour:
     it yourself.
   optionLT: {fileID: 0}
   optionRT: {fileID: 11400000, guid: 792e9fee0b721d8478c82409f1f3723b, type: 2}
-  optionLB: {fileID: 0}
+  optionLB: {fileID: 11400000, guid: 1b6140bcecb4bb949b83c921b8af921c, type: 2}
   optionRB: {fileID: 11400000, guid: 6398069a675c97446886aadb3e81a3c5, type: 2}
   soundName: 
   locationName: Bank

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92cfcc4db8ebb284cbb051ac2655eb2d, type: 3}
   m_Name: 3-2
   m_EditorClassIdentifier: 
-  text: Break cover
+  text: Break cover(need gloves)
   targetPlot: {fileID: 11400000, guid: 55eb3709d082efa488050257f69a2711, type: 2}
   itemId: 
   color: 1
@@ -20,3 +20,4 @@ MonoBehaviour:
   timerFeedback: 1
   timerFeedbackValue: 2
   score: 4
+  needItems: []

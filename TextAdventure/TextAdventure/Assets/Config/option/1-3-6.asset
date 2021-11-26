@@ -15,7 +15,7 @@ MonoBehaviour:
   text: Supermarket
   targetPlot: {fileID: 11400000, guid: 7b8aae75ea5b69142957e58eb8bbc5c9, type: 2}
   itemId: 
-  color: 3
+  color: 0
   vfx: 0
   timerFeedback: 2
   timerFeedbackValue: -1

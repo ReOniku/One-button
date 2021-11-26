@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92cfcc4db8ebb284cbb051ac2655eb2d, type: 3}
   m_Name: 1-1-4
   m_EditorClassIdentifier: 
-  text: continue
+  text: sleep
   targetPlot: {fileID: 11400000, guid: 66e5aa6886f783340b3ebb8efc104844, type: 2}
   itemId: 
   color: 0
-  vfx: 4
+  vfx: 1
   timerFeedback: 0
   timerFeedbackValue: 0
   score: 0
