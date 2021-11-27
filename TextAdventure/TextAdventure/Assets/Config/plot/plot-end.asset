@@ -15,10 +15,8 @@ MonoBehaviour:
   text: 'Thanks, for playing my first Unity game.
 
 
-    This game was made not as
-    hard as you feel.
-
-    Wish you can clear the bomb ;)'
+    Hope you defuses the bomb
+    in time!'
   optionLT: {fileID: 0}
   optionRT: {fileID: 0}
   optionLB: {fileID: 0}

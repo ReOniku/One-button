@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18babe0966456ad448a8c30597c38ae6, type: 3}
   m_Name: plot-solve done
   m_EditorClassIdentifier: 
-  text: You smashed over the bomb cover
+  text: You smashed open the bomb cover
   optionLT: {fileID: 0}
   optionRT: {fileID: 0}
   optionLB: {fileID: 0}

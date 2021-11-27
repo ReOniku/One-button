@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18babe0966456ad448a8c30597c38ae6, type: 3}
   m_Name: plot-solve code 0
   m_EditorClassIdentifier: 
-  text: You see a 4 digit code machine. You know you should enter the 4 right numbers
-    or die
+  text: You see a 4 digit code machine. You know you should enter 4 numbers, but
+    what are they?
   optionLT: {fileID: 11400000, guid: 122a96afe1b2d094ebcf7625dc928842, type: 2}
   optionRT: {fileID: 11400000, guid: c04001d13a8cd724489e41a8c6c517d1, type: 2}
   optionLB: {fileID: 11400000, guid: d720c403c6147024c92d17882ea73927, type: 2}

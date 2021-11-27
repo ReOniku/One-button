@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: plot-2
   m_EditorClassIdentifier: 
   text: You turn on the TV, and the astrology channel is on. <size=200%>6</size>
-    is a good number? Joking...
+    is suppose to be the number of the day.
   optionLT: {fileID: 0}
   optionRT: {fileID: 11400000, guid: bfd4b7907f74cfe46b1ca823652758f6, type: 2}
   optionLB: {fileID: 0}

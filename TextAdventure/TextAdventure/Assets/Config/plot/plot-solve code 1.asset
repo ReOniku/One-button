@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18babe0966456ad448a8c30597c38ae6, type: 3}
   m_Name: plot-solve code 1
   m_EditorClassIdentifier: 
-  text: The 2nd code... Your hand is wet with sweat
+  text: The 2nd digit... Your shirt is drenched sweat
   optionLT: {fileID: 11400000, guid: 82de03212924db24287e7023a1931e4e, type: 2}
   optionRT: {fileID: 11400000, guid: feca4676262b8de468e689e9d37d2051, type: 2}
   optionLB: {fileID: 11400000, guid: c8836ac87c1dfcf4bb15ca9107bb472a, type: 2}

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18babe0966456ad448a8c30597c38ae6, type: 3}
   m_Name: plot-1
   m_EditorClassIdentifier: 
-  text: 'You look arround,
+  text: 'You look around,
 
     try to find something to do'
   optionLT: {fileID: 0}
